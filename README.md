@@ -1,6 +1,6 @@
 🌐 Ler em: [English](README.md) | [Português](README.pt.md)
 
-# ComfyUI-HiggsV3-v02
+# ComfyUI-TrdHiggsV3
 
 **Local European Portuguese TTS with voice cloning — a custom ComfyUI node**
 
@@ -50,7 +50,7 @@ Clone into your ComfyUI custom nodes directory:
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/YOUR_USERNAME/ComfyUI-HiggsV3-v02.git
+git clone https://github.com/YOUR_USERNAME/ComfyUI-TrdHiggsV3.git
 ```
 
 Install dependencies:
@@ -59,12 +59,12 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Restart ComfyUI. The node will appear under **Audio/TTS** as "Higgs Audio v3".
+Restart ComfyUI. The node will appear under **Audio/TTS** as "TrdHiggsV3 Audio".
 
 ## Setting Up Step by Step
 
 1. **Start the Higgs server** on your local machine (default port 8000).
-2. **Open ComfyUI** and add the "Higgs Audio v3" node from the Audio/TTS category.
+2. **Open ComfyUI** and add the "TrdHiggsV3 Audio" node from the Audio/TTS category.
 3. **Enter your text** in the `text` input. Emotion tags like `<|emotion:enthusiasm|>` are supported.
 4. **Set `server_url`** to point at your running server (default: `http://127.0.0.1:8000`).
 5. **Adjust generation parameters:**
@@ -87,7 +87,7 @@ For European Portuguese specifically, using a reference clip from a native PT-PT
 
 ## Node Reference
 
-**Node name:** Higgs Audio v3
+**Node name:** TrdHiggsV3 Audio
 
 **Inputs:**
 

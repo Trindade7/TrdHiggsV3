@@ -1,6 +1,6 @@
 🌐 Read in: [English](README.md) | [Português](README.pt.md)
 
-# ComfyUI-HiggsV3-v02
+# ComfyUI-TrdHiggsV3
 
 **TTS em Português de Portugal Local com clonagem de voz — um nó personalizado para o ComfyUI**
 
@@ -50,7 +50,7 @@ Clone o repositório para a sua diretoria de custom nodes do ComfyUI:
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/YOUR_USERNAME/ComfyUI-HiggsV3-v02.git
+git clone https://github.com/YOUR_USERNAME/ComfyUI-TrdHiggsV3.git
 ```
 
 Instale as dependências:
@@ -59,12 +59,12 @@ Instale as dependências:
 pip install -r requirements.txt
 ```
 
-Reinicie o ComfyUI. O nó aparecerá em **Audio/TTS** com o nome "Higgs Audio v3".
+Reinicie o ComfyUI. O nó aparecerá em **Audio/TTS** com o nome "TrdHiggsV3 Audio".
 
 ## Configuração Passo a Passo
 
 1. **Inicie o servidor Higgs** na sua máquina local (porta por defeito: 8000).
-2. **Abra o ComfyUI** e adicione o nó "Higgs Audio v3" a partir da categoria Audio/TTS.
+2. **Abra o ComfyUI** e adicione o nó "TrdHiggsV3 Audio" a partir da categoria Audio/TTS.
 3. **Insira o seu texto** no campo `text`. Tags de emoção como `<|emotion:enthusiasm|>` são suportadas.
 4. **Defina o `server_url`** para apontar para o seu servidor em funcionamento (por defeito: `http://127.0.0.1:8000`).
 5. **Ajuste os parâmetros de geração:**
@@ -87,7 +87,7 @@ Especificamente para o Português Europeu, usar um clipe de referência de um fa
 
 ## Referência do Nó
 
-**Nome do nó:** Higgs Audio v3
+**Nome do nó:** TrdHiggsV3 Audio
 
 **Entradas (Inputs):**
 

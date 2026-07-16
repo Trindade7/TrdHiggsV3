@@ -1,6 +1,6 @@
 """ComfyUI custom node for text-to-speech using the Higgs Audio v3 API.
 
-This module provides a single ComfyUI node ("Higgs Audio v3") that sends text
+This module provides a single ComfyUI node ("TrdHiggsV3 Audio") that sends text
 to a running Higgs Audio v3 inference server over HTTP and returns synthesized
 speech as a ComfyUI AUDIO output.
 
@@ -53,7 +53,7 @@ class TrdHiggsV3API:
     """ComfyUI node that generates speech via the Higgs Audio v3 API.
 
     Registers under the ``Audio/TTS`` category with the display name
-    "Higgs Audio v3".
+    "TrdHiggsV3 Audio".
 
     Required inputs:
         text, server_url, temperature, max_new_tokens
@@ -94,7 +94,7 @@ class TrdHiggsV3API:
                     "STRING",
                     {
                         "multiline": True,
-                        "default": "<|emotion:enthusiasm|> Hello! This is Higgs Audio v3 speaking. I can now handle very long texts.",
+                        "default": "<|emotion:enthusiasm|> Hello! This is TrdHiggsV3 Audio speaking. I can now handle very long texts.",
                     },
                 ),
                 "server_url": ("STRING", {"default": "http://127.0.0.1:8000"}),
