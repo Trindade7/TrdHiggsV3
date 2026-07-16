@@ -1,6 +1,6 @@
 🌐 Ler em: [English](README.md) | [Português](README.pt.md)
 
-# ComfyUI-TrdHiggsV3
+# Local TTS Voice Cloning for Non-English Languages — a Custom ComfyUI Node (with focus on European Portuguese / PT-PT & Angola)
 
 **Local European Portuguese TTS with voice cloning — a custom ComfyUI node**
 

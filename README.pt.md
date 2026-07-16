@@ -1,6 +1,6 @@
 🌐 Read in: [English](README.md) | [Português](README.pt.md)
 
-# ComfyUI-TrdHiggsV3
+# Clonagem de Voz TTS Local para Idiomas Não-Ingleses — um Nó Personalizado para ComfyUI (com foco em Português Europeu / PT-PT & Angola)
 
 **TTS em Português de Portugal Local com clonagem de voz — um nó personalizado para o ComfyUI**
 
