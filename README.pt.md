@@ -50,7 +50,7 @@ Clone o repositório para a sua diretoria de custom nodes do ComfyUI:
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/YOUR_USERNAME/ComfyUI-TrdHiggsV3.git
+git clone https://github.com/Trindade7/TrdHiggsV3
 ```
 
 Instale as dependências:
