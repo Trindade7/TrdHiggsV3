@@ -1,4 +1,4 @@
-🌐 Ler em: [English](README.md) | [Português](README.pt.md)
+🌐 Read in: [English](README.md) | [Português](README.pt.md)
 
 # ComfyUI-HiggsV3-v02
 
@@ -91,14 +91,14 @@ Especificamente para o Português Europeu, usar um clipe de referência de um fa
 
 **Entradas (Inputs):**
 
-| Entrada         | Tipo   | Obrigatório | Descrição                                  |
-| --------------- | ------ | ----------- | ------------------------------------------ |
-| text            | STRING | Sim         | Texto a sintetizar (suporta tags de emoção)|
-| server_url      | STRING | Sim         | URL do servidor API Higgs                  |
-| temperature     | FLOAT  | Sim         | Temperatura de amostragem (0.1 - 2.0)      |
-| max_new_tokens  | INT    | Sim         | Máximo de tokens por pedaço (128 - 4096)   |
-| reference_audio | AUDIO  | Não         | Áudio de referência para clonagem de voz   |
-| reference_text  | STRING | Não         | Transcrição do áudio de referência         |
+| Entrada         | Tipo   | Obrigatório | Descrição                                   |
+| --------------- | ------ | ----------- | ------------------------------------------- |
+| text            | STRING | Sim         | Texto a sintetizar (suporta tags de emoção) |
+| server_url      | STRING | Sim         | URL do servidor API Higgs                   |
+| temperature     | FLOAT  | Sim         | Temperatura de amostragem (0.1 - 2.0)       |
+| max_new_tokens  | INT    | Sim         | Máximo de tokens por pedaço (128 - 4096)    |
+| reference_audio | AUDIO  | Não         | Áudio de referência para clonagem de voz    |
+| reference_text  | STRING | Não         | Transcrição do áudio de referência          |
 
 **Saída (Output):** AUDIO — um dicionário contendo a `waveform` (Tensor) e o `sample_rate` (int).
 

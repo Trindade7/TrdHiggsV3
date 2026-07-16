@@ -1,4 +1,4 @@
-🌐 Read in: [English](README.md) | [Português](README.pt.md)
+🌐 Ler em: [English](README.md) | [Português](README.pt.md)
 
 # ComfyUI-HiggsV3-v02
 
