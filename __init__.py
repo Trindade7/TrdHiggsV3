@@ -49,7 +49,7 @@ import torch
 import torchaudio
 
 
-class HiggsV3API:
+class TrdHiggsV3API:
     """ComfyUI node that generates speech via the Higgs Audio v3 API.
 
     Registers under the ``Audio/TTS`` category with the display name
@@ -275,6 +275,6 @@ class HiggsV3API:
         return ({"waveform": out_waveform, "sample_rate": final_sample_rate},)
 
 
-NODE_CLASS_MAPPINGS = {"HiggsV3API": HiggsV3API}
+NODE_CLASS_MAPPINGS = {"TrdHiggsV3API": TrdHiggsV3API}
 
-NODE_DISPLAY_NAME_MAPPINGS = {"HiggsV3API": "Higgs Audio v3"}
+NODE_DISPLAY_NAME_MAPPINGS = {"TrdHiggsV3API": "TrdHiggsV3 Audio"}
