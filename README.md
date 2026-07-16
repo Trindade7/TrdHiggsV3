@@ -1,3 +1,5 @@
+🌐 Read in: [English](README.md) | [Português](README.pt.md)
+
 # ComfyUI-HiggsV3-v02
 
 **Local European Portuguese TTS with voice cloning — a custom ComfyUI node**
@@ -36,7 +38,7 @@ This keeps each individual generation short enough for the model to handle clean
 
 ## Prerequisites
 
-You need a running [Higgs Audio v3](https://github.com/boostcampaitech7/level4-nlp-finalproject-hackathon-nlp-04) inference server. For this project, I am specifically using **sglang-omni** as the backend server. The node connects to it via HTTP (default: `http://127.0.0.1:8000`).
+You need a running [Higgs Audio v3](https://huggingface.co/bosonai/higgs-tts-3-4b) inference server. For this project, I am specifically using [**sglang-omni**](https://github.com/sgl-project/sglang-omni) as the backend server. The node connects to it via HTTP (default: `http://127.0.0.1:8000`).
 
 > **Note:** Getting the audio models properly served can be tricky. If requested, I can create a full deployment setup of ComfyUI and sglang-omni for your specific use case.
 
@@ -89,14 +91,14 @@ For European Portuguese specifically, using a reference clip from a native PT-PT
 
 **Inputs:**
 
-| Input | Type | Required | Description |
-|---|---|---|---|
-| text | STRING | Yes | Text to synthesize (supports emotion tags) |
-| server_url | STRING | Yes | Higgs API server URL |
-| temperature | FLOAT | Yes | Sampling temperature (0.1 - 2.0) |
-| max_new_tokens | INT | Yes | Max tokens per chunk (128 - 4096) |
-| reference_audio | AUDIO | No | Reference audio for voice cloning |
-| reference_text | STRING | No | Transcript of the reference audio |
+| Input           | Type   | Required | Description                                |
+| --------------- | ------ | -------- | ------------------------------------------ |
+| text            | STRING | Yes      | Text to synthesize (supports emotion tags) |
+| server_url      | STRING | Yes      | Higgs API server URL                       |
+| temperature     | FLOAT  | Yes      | Sampling temperature (0.1 - 2.0)           |
+| max_new_tokens  | INT    | Yes      | Max tokens per chunk (128 - 4096)          |
+| reference_audio | AUDIO  | No       | Reference audio for voice cloning          |
+| reference_text  | STRING | No       | Transcript of the reference audio          |
 
 **Output:** AUDIO — a dict containing `waveform` (Tensor) and `sample_rate` (int).
 
