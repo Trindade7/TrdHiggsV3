@@ -1,0 +1,12 @@
+[project]
+name = "comfyui-higgsv3-v02"
+description = "ComfyUI node for text-to-speech using Higgs Audio v3 API"
+version = "0.2.0"
+license = "MIT"
+
+[project.urls]
+Repository = "https://github.com/YOUR_USERNAME/ComfyUI-HiggsV3-v02"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI Higgs Audio v3"
